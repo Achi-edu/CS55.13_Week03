@@ -1,0 +1,40 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family:
+            -apple-system,
+            BlinkMacSystemFont,
+            Segoe UI,
+            Roboto,
+            Oxygen,
+            Ubuntu,
+            Cantarell,
+            Fira Sans,
+            Droid Sans,
+            Helvetica Neue,
+            sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    background: #c0d7e3;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #16711b;
+    text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    color: #58872f;
+  }
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
